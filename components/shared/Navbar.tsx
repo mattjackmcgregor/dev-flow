@@ -17,9 +17,13 @@ const Navbar = () => {
           Dev<span className="text-primary-500">Overflow</span>
         </p>
       </Link>
-      <SignedIn>
-        <UserButton afterSignOutUrl="/" />
-      </SignedIn>
+      GlobalSearch
+      <div className="flex-between gap-5">
+        themeLogo
+        <SignedIn>
+          <UserButton afterSignOutUrl="/" />
+        </SignedIn>
+      </div>
     </nav>
   );
 };
