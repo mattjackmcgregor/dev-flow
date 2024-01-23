@@ -71,3 +71,25 @@ export const BADGE_CRITERIA = {
     GOLD: 100000,
   },
 };
+
+export const topQuestions = [
+  {
+    id: 1,
+    question:
+      "Would it be appropriate to point out an error in another paper during a referee report?",
+  },
+  { _id: 2, question: "How can an airconditioning machine exist?" },
+  { _id: 3, question: "How can an airconditioning machine exist?" },
+  { _id: 4, question: "How can an airconditioning machine exist?" },
+  { _id: 5, question: "How can an airconditioning machine exist?" },
+  { _id: 6, question: "question about something" },
+];
+
+export const popularTags = [
+  { _id: 1, name: "Nextjs", totalQuestions: 2 },
+  { _id: 2, name: "JS", totalQuestions: 2 },
+  { _id: 3, name: "Python", totalQuestions: 1 },
+  { _id: 4, name: "React", totalQuestions: 3 },
+  { _id: 5, name: "Css", totalQuestions: 4 },
+  { _id: 6, name: "Nextjs", totalQuestions: 5 },
+];

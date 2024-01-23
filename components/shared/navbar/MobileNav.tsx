@@ -28,7 +28,9 @@ export const NavContent = () => {
             <Link
               href={item.route}
               className={`${
-                isActive && "primary-gradient text-light-900 rounded-lg"
+                isActive
+                  ? "primary-gradient text-light-900 rounded-lg"
+                  : "text-dark300_light900"
               } flex items-center justify-start gap-4 bg-transparent p-4`}
             >
               <Image
